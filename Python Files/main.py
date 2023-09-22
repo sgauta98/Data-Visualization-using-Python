@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.ticker as MultipleLocator
 import seaborn as sns
 
 data = pd.read_excel("plotproject.xlsx", skiprows=2) #removed top 2 empty rows in the excel sheet
